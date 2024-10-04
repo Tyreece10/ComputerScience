@@ -1,7 +1,7 @@
 #Make a 6 question quiz
 #1st one is a greater then less then.
 #2nd one is a greater then and less then
-3#Thrid one is a beginning and end
+#Thrid one is a beginning and end
 #Fourth one is a how many question one
 #Fifth one is a greater than and less then
 name = input("Whats your name\n>")
