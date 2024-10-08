@@ -30,7 +30,7 @@ def tally_score():
         score = score + 1
     if answer_five > 42 and answer_five < 45:
         score = score + 1
+    print("Your score is")
     print(score)
-
 
 tally_score()
