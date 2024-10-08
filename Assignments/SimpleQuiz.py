@@ -1,18 +1,3 @@
-
-def tally_score():
-    global score
-    if answer > 499:
-        score + 1
-    if answer_two < 11 and answer_two > 5:
-        score + 1
-    if answer_three == 75:
-        score + 1
-    if answer_four == 3:
-        score + 1
-    if answer_five > 42 and answer_five < 45:
-        score + 1
-    
-
 name = input("Whats your name\n>")
 print("Answer theses questions")
 
