@@ -1,6 +1,6 @@
-wind_speed = int(input("What is the wind speed of your hurrocane?\n>"))
+wind_speed = int(input("What is the wind speed of your hurricane?\n>"))
 if wind_speed < 74:
-    print("Your hurrocane is a Tropical Storm")
+    print("Your hurricane is a Tropical Storm")
 
 elif wind_speed < 96:
     print("Your hurricane is a Catagory 1")
