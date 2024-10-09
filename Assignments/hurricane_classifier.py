@@ -15,4 +15,4 @@ elif wind_speed < 157:
     print("Your hurricane is a Catagory 4")
 
 elif wind_speed >= 157:
-    print("Yoru hurricane is a Catagory 5")
+    print("Your hurricane is a Catagory 5")
