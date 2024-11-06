@@ -111,13 +111,13 @@ def mushroom_encounter():
         print("Invalid choice. Try again.")
         mushroom_encounter()
 
-# 5th Encounter
+
 def find_antidote():
     print("You desperately search for an antidote and find a strange herb that seems promising. Then you end up back in the forest.")           #Heal from picking the muchroom path
     print("You eat the herb and slowly start to feel better.")
     back_in_forest()
 
-# 6th Encounter
+# 5th Encounter
 def back_in_forest():
     print("You find yourself back in the forest, feeling better but still wary of your surroundings.")
     print("What would you do next:")
@@ -133,7 +133,7 @@ def back_in_forest():
         print("Invalid choice. Try again.")
         back_in_forest()
 
-# 7th Encounter
+# 6th Encounter
 def encounter_bandits():
     print("You continue your journey through the wood and encounter some bandits.")
     print("1. Fight the bandits.")
@@ -150,7 +150,7 @@ def encounter_bandits():
         print("Invalid choice. Try again.")
         encounter_bandits()
 
-# 7th Encounter
+
 def find_treasure():
     global fire_elem, wind_elem, physical_ability, fast_learner                     #Adding to global variables/They should have 4 in all stats
     print("You found a chest that gave you +4 on all your abilities.")
@@ -174,7 +174,7 @@ def find_cave():
         exit()
     middle_of_forest()
 
-# 8th Encounter
+#7th Encounter
 def middle_of_forest():
     print("Now after exiting the cave, you see a group of people.")         #This splits the path for the user
     print("1. Interact with the group of people.")
@@ -189,7 +189,7 @@ def middle_of_forest():
         print("Invalid choice. Try again.")
         middle_of_forest()
 
-# 9th Encounter
+# 8th Encounter
 def encounter_allies():
     print("You interacted with the group of people, befriending them and teaching how to use their magic. They in return help you try to reach the village.")           #A function to lvl up the user/They should pick 1 if they want to progress
     print("Now that you have allies, you guys encounter Goblins and a wolf.")
@@ -206,7 +206,7 @@ def encounter_allies():
         print("Invalid choice. Try again.")
         encounter_allies()
 
-# 10th Encounter
+# 9th Encounter
 def encounter_bandit_solo():                                                                #If they click 2 of the 7th encounter
     global fire_elem, wind_elem, physical_ability, fast_learner
     print("You ignore them and encounter a single bandit.")
@@ -241,7 +241,7 @@ def gain_abilities():                                                           
     print("You have beaten the Goblin and wolf leveling up all your abilities +2. And you and your allies are back in the forest.")
     after_goblins()
 
-# 11th Encounter
+# 10th Encounter
 def after_goblins():
     print("After the encounter with the Goblins, you see a cave.")                  #This gets them ready for the true ending
     print("You go towards the cave and then you see a Three headed wolf")
@@ -274,7 +274,7 @@ def three_headed_wolf():
         exit()
     after_three_headed_wolf()
 
-# 12th Encounter
+# 11th Encounter
 def after_three_headed_wolf():
     print("After the encounter with the Three headed wolf you SEE THE VILLAGE. Despreate you can your group start to run to it.")           #If they followed the right path they should beat it
     print("Getting closer to the village you see Big powerfull mob of people")
@@ -301,7 +301,7 @@ def mob_encounter():
         print("GAME OVER!")
         exit()
 
-# 13th Encounter
+# 12th Encounter
 def after_mob():
 
     print("Your allies enage in combat with the mob but out of scaredoom you ran away leaving the group behead.")       #They should have 7 or more right now for fire and wind
@@ -318,7 +318,7 @@ def after_mob():
         print("Invalid choice. Try again.")
         after_mob()
 
-# 14th encounter
+# 13th encounter
 def mob_goblins():
     print("You then encounter a mob of goblins")
     print("1. Do you wish to fight them as a revolve to get stronger ")
@@ -358,7 +358,7 @@ def cave_two():
     print("You enagage in combat")
     battle_snake()
 
-#15th Encounter
+#14th Encounter
 def battle_snake():
     print("You are now in battle mode you now you make the dicision of every the movement your player makes")               #Putting them in battle mode means they make every decision/ every movement could get them killed or saved
     print("Your player looks at the snake with a bold look to take it down.")
@@ -378,7 +378,7 @@ def battle_snake():
         print("Invalid choice. Try again.")
         battle_snake()
 
-#16th Encounter
+#15th Encounter
 def battle_snake_one():
     print("With that slight prediction your character rolled left")
     print("You the snake long tail was stuck on the ground which you land one it with your fire magic.")
@@ -400,7 +400,7 @@ def battle_snake_one():
         print("Invalid choice. Try again.")
         battle_snake_one()
 
-#17th Encounter
+#16th Encounter
 def battle_snake_two():
     print("After successfully avoiding the snake you launch a deadly counter attack blinding the snake.")           #Its blind
     print("The snake out of agony screams out loud further increasing the poison spreading in your body.")
@@ -416,7 +416,7 @@ def battle_snake_two():
         print("Invalid choice. Try again.")
         battle_snake_two()
 
-#18th Encounter
+#17th Encounter
 def finishing_blow():
     print("As you run up the cliff of the cave and dive towards")
     print("The snake predicts your movement and shoots his tail towards you.")
@@ -484,7 +484,7 @@ def shiny_object():
     print("You then drink the antidote for the poison in your body and exit the cave.")
     after_snake()
 
-#19th Encounter
+#18th Encounter
 def after_snake():
     print("After beating the snake your are now the strongest person in the forest")
     print("You then see bandits taking away someone. What would you do:")
@@ -501,7 +501,7 @@ def after_snake():
         print("Invalid choice. Try again.")
         after_snake()
 
-#20th Encounter/New story for user
+#19th Encounter/New story for user
 def journey_to_village():
     print("After the encounter with the bandits you think that you should become the king of the forest instead of going to the village")           #This splits the outcome of the story/Lets user pick there story.
     print("Where do you want to continue your story?")
@@ -516,7 +516,7 @@ def journey_to_village():
         print("Invalid choice. Try again.")
         journey_to_village()
 
-#21th Encounter                                                                               Dont forget king_forest function
+#20th Encounter                                                                               Dont forget king_forest function
 def village():
     print("Has you you continue walking you a group of people in the over the bushes")
     print("1. Do you wish to interact with them")
@@ -546,7 +546,7 @@ def continue_journey():
     print("YOU'VE BEATEN THE GAME")                                                 #4TH DISTINCT ENDING
     exit()
 
-#22th Encoutner
+#21th Encoutner
 def king_forest():
     print("With the resolve of become you then sense a gaint being on top of a mountain")
     print("You run towars the mountain knowing that you can take down the beast")
