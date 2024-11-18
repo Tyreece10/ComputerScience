@@ -2,12 +2,13 @@ from adafruit_circuitplayground import cp
 import random
 import time
 
-# Main loop
+
 while True:
+    cp.pixels.brightness = 0.1  # Set brightness
     if cp.button_a:
         num_pixels = random.randint(1, 10)
         
-        # Light up the number of pixels in a chosen color (e.g., blue)
+        # Light up the number of pixels
         for i in range(num_pixels):
             cp.pixels[i] = (184, 2, 26)
 
