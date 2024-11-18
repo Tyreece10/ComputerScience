@@ -7,4 +7,3 @@ while True:
     for i in range(10):
         cp.pixels[i] = (0, 0, 0)
     time.sleep(0.367)
-
