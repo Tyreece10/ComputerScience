@@ -1,7 +1,7 @@
 from adafruit_circuitplayground import cp
 
 while True:
-    x, y, z = cp.acceleration  # Get acceleration along X, Y, Z axes
+    x, y, z = cp.acceleration
 
     if x > 6:  # Check if the switch is to the right
         for i in range(5):
